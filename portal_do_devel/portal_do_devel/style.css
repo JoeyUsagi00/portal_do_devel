@@ -1,0 +1,22 @@
+header>
+		h1>{Portal do Desenvolvedor}
+
+div.container>
+		nav>
+				ul>
+		        li>a[href="index.html"]>{🏠 Início}
+		        li>a[href="perfil.html"]>{👤 Perfil}
+		        li>a[href="configuracoes.html"]>{⚙️ Configurações}
+    main>
+        (
+        article>
+            h2>{Conteúdo Principal}
+            div.bloco>
+                p>lorem30
+                figure>
+                    img[src="https://picsum.photos/200/200?random=1"]
+        )*5
+footer>
+    p>{&copy; 2045 Xablau. Todos os direitos reservados.}
+    
+    
