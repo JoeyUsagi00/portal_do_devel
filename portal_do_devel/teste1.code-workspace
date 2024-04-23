@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../gridpics"
+		},
+		{
+			"name": "portal_do_devel",
+			"path": "."
+		},
+		{
+			"name": "portal_do_devel-1",
+			"path": "../portal_do_devel-1"
+		}
+	],
+	"settings": {}
+}

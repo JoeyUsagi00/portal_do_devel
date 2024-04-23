@@ -1,0 +1,54 @@
+.conteiner {
+
+    max-width: 1000px;
+    
+}
+
+.bloco {
+
+    display: flex;
+}
+
+nav ul {
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(167, 167, 167);
+    gap: 40px;
+    padding: 20px;
+    justify-content: center;
+}
+
+article {
+
+    
+    width: 40%;
+
+}
+
+body {
+    color: black;
+    transition: transform 0.3s;
+    justify-content: flex-end;
+
+}
+
+@media (max-width: 768px) {
+    body {
+        transform: translateY(-100px);
+    }
+}
+
+@media (max-width: 900px) {
+    .bloco {
+        display: flex;
+        align-items: center;
+    }
+}
